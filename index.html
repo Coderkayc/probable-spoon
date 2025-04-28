@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mx-auto  flex justify-between items-center p-4">
+        <div class="flex items-center space-x-2">
+            <img src="images/chess-pawn-regular.svg" alt="Logo" class="h-8 w-5 mr-0">
+            <span class="text-xl font-bold">Qlick</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-8 border border-black py-5 px-15 rounded-full">
+            <a href="#" class="font-bold hover:shadow-lg ">Home</a>
+            <a href="#" class="font-bold hover:shadow-lg">About</a>
+            <a href="#" class="font-bold hover:shadow-lg">Services</a>
+            <a href="#" class="font-bold hover:shadow-lg">Products</a>
+            <a href="#" class="font-bold hover:shadow-lg">Contact</a>
+        </div>
+        <div class="hidden md:flex items-center">
+            <a href="#" class="bg-black text-white px-15 py-4 font-bold rounded-full transition duration-300 hover:bg-white hover:text-black hover:border border-black">Explore</a>
+        </div>
+        <nav class="md:hidden flex items-center">
+            <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+            </button>
+            <div id="mobile-menu" class="md:hidden hidden px-8 pt-5 pb-2 space-y-2">
+                <a href="" class="block font-semibold hover:underline">Home</a>
+                <a href="" class="block font-semibold hover:underline">About</a>
+                <a href="" class="block font-semibold hover:underline">services</a>
+                <a href="" class="block font-semibold hover:underline">Products</a>
+                <a href="" class="block font-semibold hover:underline">contact</a><br>
+                <a href="" class="bg-black text-white text-center py-2 px-5 font-bold rounded-full transition duration-300 hover:bg-white hover:text-black hover:border border-black">Explore</a>
+            </div>
+           </div>
+        </div>
+    </nav>
+    
+<header class="m-4">
+    <div class="mt-15 mx-auto justify-center items-center text-center sm:text-center lg:text-center">
+        <h1 class="text-3xl font-bold sm:text-2xl md:text-4xl lg:text-5xl">
+            The Art of Human Expression, Uncover The<br>
+            stories Behind the Art
+        </h1>
+        <p class="mt-4 text-xl sm:text-xl lg:text-xl">
+            Discover the new faourites among our diverse exhibition, Uncover the<br>
+            stories and inspirations behind the art.
+        </p>
+<button class="mt-10 py-3 px-10 mx-auto bg-black text-white flex justify-center items-center font-bold rounded-xl shadow-lg transition duration-300 animate-bounce  hover:bg-white hover:text-black hover:border border-black">
+    Explore
+</button>
+     </div>
+</header>
+
+ <section class="flex items-center justify-center p-6">
+  <div class="grid grid-cols-2 sm:grid-cols-2 lg:flex lg:space-x-2 gap-2">
+    <div class="transform-rotate-6-bg-white rounded-2xl shadow-lg p-1 transition duration-300 hover:scale-105
+    hover:rotate-8 hover:shadow-2xl">
+        <img src="images/black face.PNG" alt="black face" class="rounded-2xl w-full h-48 object-cover">
+    </div>
+
+    <div class="transform-rotate-6-bg-white rounded-2xl shadow-lg p-1 transition duration-300 hover:scale-105
+    hover:rotate-8 hover:shadow-2xl">
+        <img src="images/colorful attaire.PNG" alt="colorful attaire" class="rounded-2xl w-full h-48 object-cover">
+    </div>
+
+    <div class="transform-rotate-6-bg-white rounded-2xl shadow-lg p-1 transition duration-300 hover:scale-105
+    hover:rotate-8 hover:shadow-2xl">
+        <img src="images/a painted face.PNG" alt="a painted face" class="rounded-2xl w-full h-48 object-cover">
+    </div>
+
+    <div class="transform-rotate-6-bg-white rounded-2xl shadow-lg p-1 transition duration-300 hover:scale-105
+    hover:rotate-8 hover:shadow-2xl">
+        <img src="images/children laughing.PNG" alt=" children laughing" class="rounded-2xl w-full h-48 object-cover">
+    </div>
+</div>
+</section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
